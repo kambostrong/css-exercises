@@ -9,7 +9,7 @@
   gap: 4px;
   grid-template-columns: 1fr 4fr;
   
-  height: 100vh;
+  
   
 }
 
@@ -53,6 +53,8 @@
   grid-column: 1 / 2;
   display: grid;
   gap: 50px;
+  grid-row: 2 / 4;
+
   }
 
 .sidebar .photo {
@@ -69,6 +71,9 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  place-items: center;
+  /* CENTERING REQUIRES MAKING THE ITEM GRID! */
 }
 
 .nav {
